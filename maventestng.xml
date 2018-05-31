@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Maven TestNG suite">   
+<test name="T-Shirts">   
+<classes>
+<class name="com.maven.qa.tshirts.TShirtsTests"/>   
+</classes>
+</test>
+<test name="Casual Dresses">
+<classes>
+<class name="com.maven.qa.dresses.CasualDressesTests"/>
+</classes>
+</test>
+<test name="Evening Dresses">
+<classes>
+<class name="com.maven.qa.dresses.EveningDressesTests"/>
+</classes>
+</test>
+<test name="Summer Dresses">
+<classes>
+<class name="com.maven.qa.dresses.SummerDressesTests"/>
+</classes>
+</test>
+</suite>

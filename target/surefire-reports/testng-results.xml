@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Maven TestNG suite" duration-ms="351063" started-at="2018-04-02T18:07:49Z" finished-at="2018-04-02T18:13:41Z">
+    <groups>
+    </groups>
+    <test name="T-Shirts" duration-ms="85314" started-at="2018-04-02T18:07:49Z" finished-at="2018-04-02T18:09:15Z">
+      <class name="com.maven.qa.tshirts.TShirtsTests">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.maven.qa.tshirts.TShirtsTests@4ec6a292]" name="initialize" is-config="true" duration-ms="27664" started-at="2018-04-02T23:37:49Z" finished-at="2018-04-02T23:38:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.maven.qa.tshirts.TShirtsTests@4ec6a292]" name="login" duration-ms="11419" started-at="2018-04-02T23:38:17Z" finished-at="2018-04-02T23:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="placeorder()[pri:1, instance:com.maven.qa.tshirts.TShirtsTests@4ec6a292]" name="placeorder" duration-ms="43132" started-at="2018-04-02T23:38:29Z" finished-at="2018-04-02T23:39:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeorder -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.maven.qa.tshirts.TShirtsTests@4ec6a292]" name="close" is-config="true" duration-ms="3032" started-at="2018-04-02T23:39:12Z" finished-at="2018-04-02T23:39:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.maven.qa.tshirts.TShirtsTests -->
+    </test> <!-- T-Shirts -->
+    <test name="Casual Dresses" duration-ms="95423" started-at="2018-04-02T18:09:15Z" finished-at="2018-04-02T18:10:50Z">
+      <class name="com.maven.qa.dresses.CasualDressesTests">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.maven.qa.dresses.CasualDressesTests@56cbfb61]" name="initialize" is-config="true" duration-ms="21258" started-at="2018-04-02T23:39:15Z" finished-at="2018-04-02T23:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.maven.qa.dresses.CasualDressesTests@56cbfb61]" name="login" duration-ms="12559" started-at="2018-04-02T23:39:36Z" finished-at="2018-04-02T23:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="placeorder()[pri:1, instance:com.maven.qa.dresses.CasualDressesTests@56cbfb61]" name="placeorder" duration-ms="58425" started-at="2018-04-02T23:39:49Z" finished-at="2018-04-02T23:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeorder -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.maven.qa.dresses.CasualDressesTests@56cbfb61]" name="close" is-config="true" duration-ms="3164" started-at="2018-04-02T23:40:47Z" finished-at="2018-04-02T23:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.maven.qa.dresses.CasualDressesTests -->
+    </test> <!-- Casual Dresses -->
+    <test name="Evening Dresses" duration-ms="85337" started-at="2018-04-02T18:10:50Z" finished-at="2018-04-02T18:12:16Z">
+      <class name="com.maven.qa.dresses.EveningDressesTests">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.maven.qa.dresses.EveningDressesTests@6bdf28bb]" name="initialize" is-config="true" duration-ms="21130" started-at="2018-04-02T23:40:50Z" finished-at="2018-04-02T23:41:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.maven.qa.dresses.EveningDressesTests@6bdf28bb]" name="login" duration-ms="10765" started-at="2018-04-02T23:41:11Z" finished-at="2018-04-02T23:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="placeorder()[pri:1, instance:com.maven.qa.dresses.EveningDressesTests@6bdf28bb]" name="placeorder" duration-ms="50336" started-at="2018-04-02T23:41:22Z" finished-at="2018-04-02T23:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeorder -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.maven.qa.dresses.EveningDressesTests@6bdf28bb]" name="close" is-config="true" duration-ms="3101" started-at="2018-04-02T23:42:12Z" finished-at="2018-04-02T23:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.maven.qa.dresses.EveningDressesTests -->
+    </test> <!-- Evening Dresses -->
+    <test name="Summer Dresses" duration-ms="84907" started-at="2018-04-02T18:12:16Z" finished-at="2018-04-02T18:13:41Z">
+      <class name="com.maven.qa.dresses.SummerDressesTests">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.maven.qa.dresses.SummerDressesTests@48140564]" name="initialize" is-config="true" duration-ms="26065" started-at="2018-04-02T23:42:16Z" finished-at="2018-04-02T23:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.maven.qa.dresses.SummerDressesTests@48140564]" name="login" duration-ms="11301" started-at="2018-04-02T23:42:42Z" finished-at="2018-04-02T23:42:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="placeorder()[pri:1, instance:com.maven.qa.dresses.SummerDressesTests@48140564]" name="placeorder" duration-ms="43404" started-at="2018-04-02T23:42:53Z" finished-at="2018-04-02T23:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeorder -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.maven.qa.dresses.SummerDressesTests@48140564]" name="close" is-config="true" duration-ms="4125" started-at="2018-04-02T23:43:36Z" finished-at="2018-04-02T23:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.maven.qa.dresses.SummerDressesTests -->
+    </test> <!-- Summer Dresses -->
+  </suite> <!-- Maven TestNG suite -->
+</testng-results>
